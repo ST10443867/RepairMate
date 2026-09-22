@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat parent is required because MainActivity extends AppCompatActivity
+         (needed for AppCompatDelegate.setApplicationLocales). Compose draws the real UI. -->
+    <style name="Theme.RepairMate" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

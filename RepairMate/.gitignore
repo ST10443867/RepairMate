@@ -1,0 +1,12 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures
+.externalNativeBuild/
+.cxx/
+# Firebase config: injected in CI from the GOOGLE_SERVICES_JSON secret (see README)
+app/google-services.json

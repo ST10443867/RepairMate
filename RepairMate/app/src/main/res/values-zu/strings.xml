@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- isiZulu translations: have a first-language speaker review before final submission. -->
+<resources>
+    <string name="app_name">RepairMate</string>
+
+    <!-- Auth -->
+    <string name="login_title">Siyakwamukela kabusha</string>
+    <string name="login_subtitle">Ngena ukuze ulandelele ukulungiswa kwelaptop yakho</string>
+    <string name="register_title">Dala i-akhawunti yakho</string>
+    <string name="register_subtitle">Bhuka ukulungiswa bese ukulandelela ocingweni lwakho</string>
+    <string name="label_name">Igama eliphelele</string>
+    <string name="label_email">Ikheli le-imeyili</string>
+    <string name="label_password">Iphasiwedi</string>
+    <string name="label_confirm_password">Qinisekisa iphasiwedi</string>
+    <string name="action_login">Ngena</string>
+    <string name="action_register">Dala i-akhawunti</string>
+    <string name="link_to_register">Umusha lapha? Dala i-akhawunti</string>
+    <string name="link_to_login">Usubhalisile? Ngena</string>
+    <string name="show_password">Bonisa</string>
+    <string name="hide_password">Fihla</string>
+
+    <!-- Home -->
+    <string name="home_title">Ukulungiswa kwami</string>
+    <string name="greeting">Sawubona, %1$s</string>
+    <string name="empty_title">Akukho ukulungiswa okwamanje</string>
+    <string name="empty_body">Bhuka ukulungiswa kokuqala futhi kuzovela lapha.</string>
+    <string name="action_new_booking">Bhuka ukulungiswa</string>
+    <string name="sync_pending">Kulindele ukuvumelanisa</string>
+    <string name="action_refresh">Vuselela</string>
+    <string name="action_settings">Izilungiselelo</string>
+    <string name="action_back">Emuva</string>
+
+    <!-- New booking -->
+    <string name="new_booking_title">Bhuka ukulungiswa</string>
+    <string name="label_brand">Uhlobo lwedivayisi</string>
+    <string name="label_model">Imodeli</string>
+    <string name="label_issue">Iyini inkinga?</string>
+    <string name="label_date">Usuku olukhethwayo lokulethwa</string>
+    <string name="action_pick_date">Khetha usuku</string>
+    <string name="action_submit">Thumela ukubhuka</string>
+    <string name="action_ok">Kulungile</string>
+    <string name="action_cancel">Khansela</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Imininingwane yokulungiswa</string>
+    <string name="section_status">Inqubekelaphambili yokulungiswa</string>
+    <string name="section_device">Idivayisi</string>
+    <string name="section_issue">Inkinga</string>
+    <string name="label_booked_on">Kubhukwe ngo-%1$s</string>
+    <string name="action_advance">Hambisa esigabeni esilandelayo (idemo)</string>
+    <string name="demo_note">Idemo kuphela. Kuhlelo lwangempela, abasebenzi be-QuickFix bayabuyekeza lesi sigaba.</string>
+
+    <!-- Status stages -->
+    <string name="status_received">Kutholakele</string>
+    <string name="status_diagnosing">Kuyahlolwa</string>
+    <string name="status_in_progress">Kuyalungiswa</string>
+    <string name="status_ready">Kulungele ukuthathwa</string>
+    <string name="status_collected">Kuthathiwe</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_account">I-akhawunti</string>
+    <string name="settings_language">Ulimi</string>
+    <string name="language_english">IsiNgisi</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="settings_theme">Ukubukeka</string>
+    <string name="theme_system">Landela ifoni yami</string>
+    <string name="theme_light">Okukhanyayo</string>
+    <string name="theme_dark">Okumnyama</string>
+    <string name="settings_notifications">Izaziso zokulungiswa</string>
+    <string name="settings_notifications_desc">Thola isaziso uma ukulungiswa kwakho kuya esigabeni esisha</string>
+    <string name="settings_fcm_token">Ithokheni yedivayisi (yokuhlola izaziso)</string>
+    <string name="action_copy_token">Kopisha ithokheni</string>
+    <string name="token_copied">Ithokheni ikopishiwe</string>
+    <string name="token_unavailable">Ithokheni ayitholakali. Hlola uxhumano lwakho.</string>
+    <string name="action_logout">Phuma</string>
+
+    <!-- Field errors -->
+    <string name="err_required">Le mininingwane iyadingeka</string>
+    <string name="err_invalid_email">Faka ikheli le-imeyili elivumelekile</string>
+    <string name="err_password_short">Sebenzisa okungenani izinhlamvu eziyi-8</string>
+    <string name="err_password_weak">Faka okungenani uhlamvu olulodwa nenombolo eyodwa</string>
+    <string name="err_passwords_mismatch">Amaphasiwedi awafani</string>
+    <string name="err_text_short">Engeza imininingwane eyengeziwe</string>
+    <string name="err_invalid_date">Khetha usuku olulungile</string>
+    <string name="err_date_past">Khetha namhlanje noma usuku olulandelayo</string>
+
+    <!-- Auth failures -->
+    <string name="auth_err_invalid_credentials">I-imeyili noma iphasiwedi akulungile. Hlola bobabili uphinde uzame.</string>
+    <string name="auth_err_email_in_use">Le imeyili isibhalisiwe kakade. Zama ukungena.</string>
+    <string name="auth_err_weak_password">Iphasiwedi ibuthaka kakhulu. Sebenzisa okungenani izinhlamvu eziyi-8 nezinombolo.</string>
+    <string name="auth_err_network">Awunayo i-inthanethi. Xhuma uphinde uzame.</string>
+    <string name="auth_err_unknown">Kukhona okungahambanga kahle. Sicela uzame futhi.</string>
+
+    <!-- Snackbar messages -->
+    <string name="msg_saved_online">Ukubhuka kuthunyelwe</string>
+    <string name="msg_saved_offline">Kugcinwe kule foni. Kuzothunyelwa uma uphinde uxhume ku-inthanethi.</string>
+    <string name="msg_refresh_failed">Ayikwazanga ukuvuselela. Kukhonjiswa idatha egciniwe.</string>
+    <string name="msg_status_updated">Isigaba sibuyekeziwe</string>
+    <string name="msg_status_failed">Ayikwazanga ukubuyekeza isigaba. Zama uma une-inthanethi.</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">Izibuyekezo zokulungiswa</string>
+    <string name="channel_desc">Izaziso uma ukulungiswa kwakho kuya esigabeni esisha</string>
+
+    <!-- Coming Soon & Admin -->
+    <string name="coming_soon_title">Ukubhukwa Kokulungiswa Kwe-Laptop</string>
+    <string name="coming_soon_desc">Ukubhuka okuthuthukile ku-inthanethi okunezinketho zokuxilonga kuyeza maduze!</string>
+    <string name="coming_soon_badge">Kuyeza Maduze</string>
+    <string name="admin_dashboard_title">Ideshibhodi Yomlawuli</string>
+    <string name="stat_total">Konke Okuthunyelwe</string>
+    <string name="stat_pending">Okulindile</string>
+    <string name="stat_active">Okusebenzayo</string>
+    <string name="stat_completed">Okuqediwe</string>
+    <string name="label_priority">Okubalulekile</string>
+    <string name="label_internal_notes">Amanothi Angaphakathi</string>
+    <string name="label_search_hint">Sesha ngohlobo, imodeli noma inkinga…</string>
+    <string name="action_save">Gcina Izinguquko</string>
+</resources>

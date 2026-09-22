@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Each booking belongs to one user (userId == their Firebase Auth uid).
+    match /bookings/{bookingId} {
+      allow create: if request.auth != null
+                    && request.resource.data.userId == request.auth.uid;
+
+      allow read:   if request.auth != null
+                    && (resource.data.userId == request.auth.uid || request.auth.token.email.endsWith('@quickfix.co.za'));
+
+      allow update: if request.auth != null
+                    && (resource.data.userId == request.auth.uid || request.auth.token.email.endsWith('@quickfix.co.za'));
+
+      allow delete: if false;
+    }
+  }
+}

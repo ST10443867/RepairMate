@@ -1,0 +1,13 @@
+- [ ] Update `firestore.rules` with admin checks
+- [ ] Update `Booking.kt` domain model fields (priority, internal notes)
+- [ ] Update `BookingDao.kt` to fetch all entries
+- [ ] Update `FirestoreModels.kt` to make query filters flexible
+- [ ] Update `FirestoreMapper.kt` for priority, internalNotes, and admin queries
+- [ ] Update `BookingRepository.kt` with admin refresh and note updates
+- [ ] Update `AuthRepository.kt` to add `isAdmin` flag to `AppUser`
+- [ ] Add new strings in English and isiZulu resource files
+- [ ] Add the "Coming Soon" Laptop Repair Booking card to customer `HomeScreen.kt`
+- [ ] Create `AdminDashboardScreen.kt` with statistics, search, filter, and sort options
+- [ ] Update `BookingDetailScreen.kt` to add admin controls
+- [ ] Update `RepairMateRoot.kt` to handle admin route mapping
+- [ ] Verify build and run tests

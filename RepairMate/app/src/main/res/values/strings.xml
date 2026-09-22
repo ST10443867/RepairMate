@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepairMate</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to follow your laptop repairs</string>
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Book a repair and track it from your phone</string>
+    <string name="label_name">Full name</string>
+    <string name="label_email">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="action_login">Log in</string>
+    <string name="action_register">Create account</string>
+    <string name="link_to_register">New here? Create an account</string>
+    <string name="link_to_login">Already registered? Log in</string>
+    <string name="show_password">Show</string>
+    <string name="hide_password">Hide</string>
+
+    <!-- Home -->
+    <string name="home_title">My repairs</string>
+    <string name="greeting">Hi, %1$s</string>
+    <string name="empty_title">No repairs yet</string>
+    <string name="empty_body">Book your first repair and it will show up here.</string>
+    <string name="action_new_booking">Book a repair</string>
+    <string name="sync_pending">Waiting to sync</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_back">Back</string>
+
+    <!-- New booking -->
+    <string name="new_booking_title">Book a repair</string>
+    <string name="label_brand">Device brand</string>
+    <string name="label_model">Model</string>
+    <string name="label_issue">What is wrong?</string>
+    <string name="label_date">Preferred drop-off date</string>
+    <string name="action_pick_date">Pick a date</string>
+    <string name="action_submit">Submit booking</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Repair details</string>
+    <string name="section_status">Repair progress</string>
+    <string name="section_device">Device</string>
+    <string name="section_issue">Issue</string>
+    <string name="label_booked_on">Booked on %1$s</string>
+    <string name="action_advance">Move to next stage (demo)</string>
+    <string name="demo_note">Demo only. In the live app, QuickFix staff update this stage.</string>
+
+    <!-- Status stages -->
+    <string name="status_received">Received</string>
+    <string name="status_diagnosing">Diagnosing</string>
+    <string name="status_in_progress">Being repaired</string>
+    <string name="status_ready">Ready for collection</string>
+    <string name="status_collected">Collected</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="theme_system">Match my phone</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_notifications">Repair notifications</string>
+    <string name="settings_notifications_desc">Get a notification when your repair changes stage</string>
+    <string name="settings_fcm_token">Device token (for testing push)</string>
+    <string name="action_copy_token">Copy token</string>
+    <string name="token_copied">Token copied</string>
+    <string name="token_unavailable">Token not available. Check your connection.</string>
+    <string name="action_logout">Log out</string>
+
+    <!-- Field errors -->
+    <string name="err_required">This field is required</string>
+    <string name="err_invalid_email">Enter a valid email address</string>
+    <string name="err_password_short">Use at least 8 characters</string>
+    <string name="err_password_weak">Include at least one letter and one number</string>
+    <string name="err_passwords_mismatch">The passwords do not match</string>
+    <string name="err_text_short">Add a little more detail</string>
+    <string name="err_invalid_date">Pick a valid date</string>
+    <string name="err_date_past">Choose today or a later date</string>
+
+    <!-- Auth failures -->
+    <string name="auth_err_invalid_credentials">Email or password is incorrect. Check both and try again.</string>
+    <string name="auth_err_email_in_use">That email is already registered. Try logging in instead.</string>
+    <string name="auth_err_weak_password">That password is too weak. Use at least 8 characters with letters and numbers.</string>
+    <string name="auth_err_network">No internet connection. Connect and try again.</string>
+    <string name="auth_err_unknown">Something went wrong. Please try again.</string>
+
+    <!-- Snackbar messages -->
+    <string name="msg_saved_online">Booking submitted</string>
+    <string name="msg_saved_offline">Saved on this phone. It will upload when you are back online.</string>
+    <string name="msg_refresh_failed">Could not refresh. Showing saved data.</string>
+    <string name="msg_status_updated">Stage updated</string>
+    <string name="msg_status_failed">Could not update the stage. Try again when online.</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">Repair updates</string>
+    <string name="channel_desc">Alerts when your repair changes stage</string>
+
+    <!-- Coming Soon & Admin -->
+    <string name="coming_soon_title">Laptop Repair Booking</string>
+    <string name="coming_soon_desc">Advanced online booking with custom diagnostic options is coming soon!</string>
+    <string name="coming_soon_badge">Coming Soon</string>
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+    <string name="stat_total">Total Submitted</string>
+    <string name="stat_pending">Pending</string>
+    <string name="stat_active">Active</string>
+    <string name="stat_completed">Completed</string>
+    <string name="label_priority">Priority</string>
+    <string name="label_internal_notes">Internal Notes</string>
+    <string name="label_search_hint">Search by brand, model or issue…</string>
+    <string name="action_save">Save Changes</string>
+</resources>
